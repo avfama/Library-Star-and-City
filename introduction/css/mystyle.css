@@ -1,5 +1,7 @@
 body {
-  background-color: lightblue;
+  background-image: url(Library\ of\ Ruina.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 h1 {
   color: navy;
