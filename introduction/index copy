@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/flexbox.css">
+<title>WEBPROG IT242 Introduction</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Personal Profile Web page </h1> <br>
+  <div>
+    About Me<br>
+    <img src="IMG_4635.JPG" alt="dweeb" width="420" height="750"><br>
+    Name: Fama, Alijah Miguel V.<br>
+    Education / Achievements<br>
+    International Philippine School in Jeddah 2012 - 2022<br>
+    Mapua Institute of Technology 2022 - 2024<br>
+    Asia Pacific College 2024 - Present<br>
+    Course: Computer Science: Cybersecurity <br>
+    IT Experience<br>
+    Basic Knowledge in Python and Java<br>
+    Linux Fundamentals<br>
+  </div>
+  <div>
+    Goals In Life / Dream<br>
+    - A personal secret. <br>
+  </div>
+  <div>
+    Hobbies & Interests<br>
+    - Reading and Writing about Sci-Fi, Cyberpunk, and Fantasy <br>
+    - Studying and Practicing various Martial Weapon Arts (mainly HEMA and Kali/Escrima) <br>
+    - Gaming, mostly narrative-based RPG and Soulslike <br>
+    - Cooking <br>
+    - Gambli- I mean partaking in chance-based games that give adrenaline and dopamine rushes :D <br>
+  </div>
+  <div>
+    Picture Gallery<br>
+    <br>
+    Insert Limbus Brainrot
+  </div>
+</div>
+</body>
+</html>
