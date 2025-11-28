@@ -40,21 +40,21 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-image: url(The\ Pianist\ Who\ Took\ My\ W–.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: rgb(255, 255, 255, 0.25);
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 30px;
 }
 
 /* Main column */
 .main {
   flex: 70%;
-  background-color: rgb(255, 255, 255, 0.25);
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 30px;
 }
 
