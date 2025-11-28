@@ -51,6 +51,7 @@ header {
 /* Main column */
 .main {
   flex: 70%;
+  background-image: url(The\ Pianist\ Who\ Took\ My\ W–.jpg);
   background-color: white;
   padding: 20px;
 }
