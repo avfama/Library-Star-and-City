@@ -52,7 +52,8 @@ header {
 .main {
   flex: 70%;
   background-image: url(The\ Pianist\ Who\ Took\ My\ W–.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: white;
   padding: 20px;
 }
