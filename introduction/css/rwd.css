@@ -9,7 +9,7 @@ body {
 
 .responsive {
   width: 50%;
-  max-width: 180px;
+  max-width: 100px;
   height: auto;
 }
 
