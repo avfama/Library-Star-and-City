@@ -8,8 +8,8 @@ body {
 }
 
 .responsive {
-  width: 50%;
-  max-width: 100px;
+  width: 100%;
+  max-width: 125px;
   height: auto;
 }
 
