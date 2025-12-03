@@ -1,14 +1,19 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+
 .container {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "content content";
-  grid-template-rows: 200px 200px ;
-  grid-template-columns: 400px 400px 400px;
-  gap: 3px;
-  background-color: dodgerblue;
-  padding: 5px;
+  grid:
+  'header header header header header header'
+  'menu main main main right right'
+  'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
+
 
 .container div {
   background-color: #f1f1f1;
@@ -16,15 +21,6 @@
   padding: 10px;
   font-size: 20px;
   text-align: center;
-}
-
-.container div.header {
-  grid-area: header;
-  text-align: center;
-}
-
-.container div.content {
-  grid-area: content;
 }
 
 .responsive {
