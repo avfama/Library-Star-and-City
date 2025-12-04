@@ -23,6 +23,7 @@ body {
     'facts'
     'footer';
   background-color: white;
+  font-family: 'Franklin Gothic Medium';
   gap: 10px;  
 }
 
@@ -62,17 +63,34 @@ body {
     grid-area: Img1;
 }
 
-.content {
+.content1 {
   grid-area: main;
 }
 
-.content > h1 {
+.content1 > h1 {
   font-size: 30px;
   margin-bottom: 7px;
 }
 
-.content > p {
+.content1 > p {
   margin-bottom: 7px;
+}
+
+.content2 {
+  grid-area: main;
+}
+
+.content2 > h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.content2 > p {
+  margin-bottom: 7px;
+}
+
+.content2 > li {
+  margin-bottom: 5px;
 }
 
 .facts {
@@ -101,16 +119,18 @@ body {
   .header {grid-area: 1 / span 6;}
   .menu {grid-area: 2 / span 1;}
   .imago {grid-area: 2 / span 2;}
-  .content {grid-area: 3 / span 4;}
+  .content1 {grid-area: 3 / span 4;}
+  .content2 {grid-area: 2 / span ;}
   .facts {grid-area: 3 / span 6;}
   .footer {grid-area: 4 / span 6;}
 }
 
 @media (min-width: 768px) {
-  .header {grid-area: 1 / span 6;}
+  .header {grid-area: 1 / span 8;}
   .menu {grid-area: 2 / span 1;}
   .imago {grid-area: 2 / span 2;}
-  .content {grid-area: 2 / span 4;}
+  .content1 {grid-area: 2 / span 4;}
+  .content2 {grid-area: 3 / span 4;}
   .facts {grid-area: 2 / span 1;}
-  .footer {grid-area: 4 / span 6;}
+  .footer {grid-area: 4 / span 8;}
 }
