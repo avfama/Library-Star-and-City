@@ -80,6 +80,7 @@ body {
 
 .content2 {
   grid-area: main;
+  font-size: 20px;
 }
 
 .content2 > h3 {
@@ -93,7 +94,6 @@ body {
 
 .content2 > li {
   margin-bottom: 5px;
-  font-size: 20px;
 }
 
 .facts {
