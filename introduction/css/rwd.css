@@ -85,7 +85,7 @@ body::after {
 }
 
 /* Main container */
-.container {
+#container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
@@ -355,6 +355,12 @@ h1 {
 .contact-btn:hover {
     color: var(--bg-dark);
     box-shadow: 0 0 20px var(--neon-red);
+}
+
+/* The Hidden Function */
+.hidden {
+    display: none !important; 
+    /* !important ensures JavaScript can control visibility effectively */
 }
 
 /* Footer styling */
