@@ -175,7 +175,7 @@ h1 {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 20px;
-    background: rgba(255, 0, 64, 0.1);
+    background: rgba(66, 64, 64, 0.1);
     border: 1px solid var(--neon-red);
     color: var(--neon-red);
     text-transform: uppercase;
