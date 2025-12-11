@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 17px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'menu'
+    'Img1'
+    'main'
+    'facts'
+    'footer';
+  background-color: white;
+  font-family: 'Franklin Gothic Medium';
+  gap: 10px;  
+}
+
+.header {
+  grid-area: header;
+  background-color: rgba(95, 5, 23, 0.619);
+  text-align: center;
+  color: #ffffff;
+}
+
+.header > h1 {
+  font-size: 40px;
+}
+
+.menu {
+  grid-area: menu;
+  }
+  
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  width: 180px;
+  margin-bottom: 7px;
+  background-color: #d59502;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.imago {
+    grid-area: Img1;
+}
+
+.content1 {
+  grid-area: main;
+}
+
+.content1 > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.content1 > p {
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+
+.content2 {
+  grid-area: main;
+  font-size: 20px;
+}
+
+.content2 > h3 {
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.content2 > p {
+  margin-bottom: 7px;
+}
+
+.content2 > li {
+  margin-bottom: 5px;
+}
+
+.facts {
+  grid-area: facts;
+  border: 1px solid #0099cc;
+  background-color: beige;
+  padding: 10px;
+  width: auto;
+}
+
+.facts > h2 {
+  font-size: 20px;
+}
+
+.facts li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(95, 11, 11);
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .imago {grid-area: 2 / span 2;}
+  .content1 {grid-area: 3 / span 4;}
+  .content2 {grid-area: 2 / span 4;}
+  .facts {grid-area: 3 / span 6;}
+  .footer {grid-area: 4 / span 6;}
+}
+
+@media (min-width: 768px) {
+  .header {grid-area: 1 / span 12;}
+  .menu {grid-area: 2 / 1 / span 2 / span 3;}
+  .imago {grid-area: 2 / 2 / span 2 / span 0;}
+  .content1 {grid-area: 2 / 6 / span 4 / span 5;}
+  .content2 {grid-area: 4 / 4 / span 5 / span 8;}
+  .facts {grid-area: 2 / 12 / span 1 / span 1;}
+  .footer {grid-area: 12 / span 12;}
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/rwd.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBPROG IT242 Introduction</title>
+</head>
+<body>
+
+<div class="grid-container">
+
+<div class="header"><h1>Profile</h1></div>
+
+<div class="menu">
+  <ul>
+    <li>Profile</li>
+    <li>REDACTED</li>
+    <li>REDACTED</li>
+    <li>REDACTED</li>
+  </ul>
+</div>
+
+<div class="imago"><img src="IMG_4635.JPG" alt="Grade 9 Fixer" class="responsive"></div>
+
+<div class="content1">
+  <h1 style="font-family: 'Franklin Gothic Medium';">Washed Up Grade 9 Fixer</h1>
+  <p> Name: ◾️◾️◾️◾️, ◾️◾️◾️◾️◾️◾️ Miguel ◾️. </p>
+  <p> Notable Achievements and Contracts</p>
+    <p>[REDACTED]</p>
+  <p>Associated Office: ◾️◾️◾️◾️◾️◾️ Corporation</p>
+</div>  
+
+<div class="facts">
+  <h2>Notes:</h2>
+  <ul>
+    <li>The Hana Association has demoted his grade.<br>Former grade level unkwown.</li>
+    <li>Warning: His files have been redacted, but some<br>details connect him to the White ◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️◾️.</li>
+    <li>Personnel is volatile and will ◾️◾️◾️◾️◾️</li>
+  </ul>
+</div>
+
+<div class="content2">
+  <h3>Interests</h3>
+  <ul>
+    <li>Philosphical ramblings.</li>
+    <li>Studying and practicing various Martial Weapon Arts.</li>
+    <li>Information Diving</li>
+    <li>Cooking</li>
+    <li>Gambling</li>
+  </ul>
+  <h3>Goals In Life / Dream</h3>
+  <ul>
+    <li>A personal secret.</li>
+  </ul>
+  <h3>Documented Images of Personnel</h3>
+</div>
+
+<div class="footer"><p>End of Profile.</p></div>
+  
+</div>
+
+</body>
+</html>
